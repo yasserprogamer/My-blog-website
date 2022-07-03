@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Luckiest+Guy&display=swap');
+
+* {
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Header {
+    background-image: url('chrome://background-wallpaper/curt-stump_plant-min.webp');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    backdrop-filter: blur(3px);
+}
+
+.Header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100px;
+}
+
+.WhiteBody {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0 45px 0;
+    text-align: center;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    display: flex;
+    padding: 25px 0 35px 0;
+    margin: 10px 0 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 20px;
+}
+
+footer .SocialMedia {
+    margin: 25px 0 10px 0;
+    color: gray;
+    font-size: 25px;
+}
+
+footer .SocialMedia i {
+    padding: 0 4px 0 4px;
+}
+
+footer .SocialMedia a:visited {
+    color: gray;
+}
+
+footer .SocialMedia i:hover {
+    color: white;
+}
