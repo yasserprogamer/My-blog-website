@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Finlandica&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Audiowide&family=Finlandica&family=Luckiest+Guy&display=swap');
 
 * {
     margin: 0;
@@ -86,11 +86,20 @@ footer .SocialMedia i:hover {
 }
 
 .WarningBox {
-    width: 75%;
+    width: 60%;
     background-color: orange;
     border-radius: 10px;
+    text-align: start;
+    padding: 20px 15px 20px 15px;
 }
 
 .WarningBox h1 {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    padding: 0 0 20px 0;
+}
+
+.WarningBox p {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 20px;
 }

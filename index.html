@@ -24,12 +24,25 @@
             </div>
         </div>
         <footer>
-            <p>yasserprogamer.ml © 2022</p>
+            <p id="CopyrightText">yasserprogamer.ml © <noscript>2022</noscript></p>
+            <script>
+                const CopyrightElement = document.getElementById("CopyrightText");
+                function CopyrightYears() {
+                    var CurrentYear = new Date().getFullYear();
+                    if(CurrentYear <= 2022){
+                        return `2022`;
+                    } else {
+                        return `2022 - ${CurrentYear}`;
+                    }
+                }
+                CopyrightElement.innerHTML = "yasserprogamer.ml © "+CopyrightYears();
+            </script>
             <div class="SocialMedia">
                 <a href="https://www.youtube.com/c/yasserprogamer"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://discord.yasserprogamer.ml/"><i class="fa-brands fa-discord"></i></a>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-reddit"></i>
+                <a href="https://github.com/yasserprogamer/"><i class="fa-brands fa-github"></i></a>
             </div>
         </footer>
     </body>
