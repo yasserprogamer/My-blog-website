@@ -46,13 +46,19 @@ nav {
 
 .Header button {
     background-color: #FFFFFF;
-    margin: 20px 0 20px 0;
+    margin: 30px 0 20px 0;
     padding: 10px 5px 10px 5px;
     font-size: 25px; 
-    border-radius: 5px;
+    border-radius: 8px;
     outline: 0;
     width: 20%;
     text-align: center;
+}
+
+.Header button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 20px 0 30px 0;
 }
 
 .WhiteBody {
