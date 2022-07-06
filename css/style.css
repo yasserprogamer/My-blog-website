@@ -5,8 +5,6 @@
 }
 
 nav {
-    position: sticky;
-    top: 0;
     display: flex;
     width: 100%;
     background-color: black;
@@ -15,6 +13,11 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 10px 0 10px 0;
+}
+
+@keyframes InvisibleTextToVisible {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .Header {
@@ -37,12 +40,20 @@ nav {
 .Header h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 100px;
+    animation-name: InvisibleTextToVisible;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .Header p {
     font-family: 'Pacifico', cursive;
     padding: 12px 0 12px 0;
     font-size: 24px;
+    animation-name: InvisibleTextToVisible;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .Header button {
@@ -54,6 +65,10 @@ nav {
     outline: 0;
     width: 20%;
     text-align: center;
+    animation-name: InvisibleTextToVisible;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .Header button:hover {
