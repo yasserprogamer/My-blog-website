@@ -77,6 +77,11 @@ nav {
     margin: 20px 0 30px 0;
 }
 
+.WhiteBody .MainPageTitle {
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+}
+
 .WhiteBody {
     display: flex;
     background-color: #FFFFFF;
@@ -147,4 +152,9 @@ footer .SocialMedia i:hover {
 .WarningBox p {
     font-family: 'Finlandica', sans-serif;
     font-size: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    background-color: #000000;
 }
