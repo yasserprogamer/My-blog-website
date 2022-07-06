@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Audiowide&family=Finlandica&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Audiowide&family=Finlandica&family=Luckiest+Guy&family=Pacifico&display=swap');
 
 * {
     margin: 0;
@@ -36,6 +36,12 @@ nav {
 .Header h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 100px;
+}
+
+.Header p {
+    font-family: 'Pacifico', cursive;
+    padding: 12px 0 12px 0;
+    font-size: 24px;
 }
 
 .Header button {
@@ -88,6 +94,10 @@ footer .SocialMedia {
 
 footer .SocialMedia i {
     padding: 0 4px 0 4px;
+}
+
+footer .SocialMedia a {
+    color: gray;
 }
 
 footer .SocialMedia a:visited {
